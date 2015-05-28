@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE node PUBLIC  "-//freedesktop//DTD D-Bus Object Introspection 1.0//EN" "http://standards.freedesktop.org/dbus/1.0/introspect.dtd">
+<node>
+	<interface name="org.test.Calck">
+		<method name="add">
+			<arg type="i" name="first" direction="in"/>
+			<arg type="i" name="second" direction="in"/>
+			<arg type="i" name="sum" direction="out"/>
+		</method>
+		<method name="sub">
+			<arg type="i" name="minuend" direction="in"/>
+			<arg type="i" name="subtrahend" direction="in"/>
+			<arg type="i" name="difference" direction="out"/>
+		</method>
+	</interface>
+</node>

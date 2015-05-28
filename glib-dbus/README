@@ -1,0 +1,16 @@
+© Alexandr Ogurtsov May'2015
+Simple D-BUS client server implementation using Glib bindings.
+
+This code implement simplest glib-dbus client/service which allows to make add/sub operations on two integers.
+I found usefull to develop it following links:
+http://raphael.slinckx.net/blog/documents/dbus-tutorial
+http://maemo.org/development/training/maemo_platform_development_content/plain_html/
+
+It mostly combine both sources and exclude depicated functions.
+To build the project use 
+make && sudo make install
+to clean up system wide files use
+sudo make uninstall
+
+Use it on your wish, I will appreciate if you remember me when you think this code useful.
+Consider that the code is available under the GPL v.2  

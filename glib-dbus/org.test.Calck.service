@@ -1,0 +1,3 @@
+[D-BUS Service]
+Name=org.test.Calck
+Exec=/usr/local/bin/test_calc_server
